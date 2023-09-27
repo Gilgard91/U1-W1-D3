@@ -1,10 +1,11 @@
 body{
     margin:0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .content{
     height: 100vh;
-    width: 50%;
+    width: 40%;
     /* background-color: rgb(241, 240, 240); */
     margin: 50px auto 0;
 }
@@ -24,14 +25,19 @@ body{
     line-height: 45px;
     border-top: 2px solid #f5ce6b;
     background-color: rgba(253, 241, 207, 0.493);
+    font-family: 'Times New Roman', Times, serif;
+    color: #004a49;
+    
 }
 
 .top-bar h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
     margin: 0;
 }
 
 h1{
-    padding: 0 200px;
+    padding: 0 165px;
     text-align: center;
 }
 
@@ -43,6 +49,12 @@ img{
     text-align: center;
 }
 
+.main-img h4{
+    color: grey;
+    font-weight: 400;
+    margin: 15px auto;
+}
+
 .featured{
     padding-left: 15px;
     border-left: 3px solid #e7b840;
@@ -51,6 +63,7 @@ img{
 
 .featured h2,h3{
     margin:0;
+    font-size: 0.9rem;
 }
 
 .featured h2{
@@ -71,4 +84,8 @@ figcaption{
 
 li{
     margin: 10px auto;
+}
+
+figure{
+    margin: 0;
 }
